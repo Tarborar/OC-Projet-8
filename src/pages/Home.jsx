@@ -1,12 +1,9 @@
+import Side from '../components/Side'
+
 function Home(){
     return(
         <div>
-           <p>Home</p>
-        <p>Home</p>
-        <p>Home</p>
-        <p>Home</p>
-        <p>Home</p>
-        <p>Home</p><p>Home</p>
+           <Side />
         </div>
         
     );

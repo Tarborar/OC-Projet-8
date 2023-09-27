@@ -1,0 +1,26 @@
+@import './utils/properties.scss';
+
+.aside-bloc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    position: fixed;
+    left: $marginSpace;
+    bottom: $navigationHeight + $marginSpace;
+    
+    &__line{
+        width: 1px;
+        height: 200px;
+        background-color: rgba(255, 255, 255, 0.1);
+        margin-top: $marginSpace;
+        margin-bottom: $marginSpace;
+    }
+
+    &__text{
+        writing-mode: vertical-rl;
+        transform: scale(-1);
+        font-size: 24px;
+        color: rgba(255, 255, 255, 0.1);
+    }
+}
