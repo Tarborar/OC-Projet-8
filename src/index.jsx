@@ -12,11 +12,13 @@ import Contact from './pages/Contact'
 
 import Navigation from './components/Navigation'
 import Header from './components/Header'
+import Side from './components/Side'
 
 ReactDOM.render(
     <React.StrictMode>
         <Router>
             <Header />
+            <Side />
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />
