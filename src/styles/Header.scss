@@ -1,6 +1,9 @@
 .header-navbar{
-    .btn-home{
-        width: 100px;
-        height: 100px;
+    display: flex;
+    justify-content: space-between;
+
+    &__btn-home{
+        width: 33px;
+        height: 33px;
     }
 }
