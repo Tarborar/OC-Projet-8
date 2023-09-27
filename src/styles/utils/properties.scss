@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../../assets/Montserrat-Light.ttf') format('truetype');
+}
+  
+@font-face {
+    font-family: 'Kusanagi';
+    src: url('../../assets/Kusanagi.otf') format('truetype');
+}
+
+$backgroundColor: radial-gradient(circle farthest-side at 51.3% -27.69%, #313131 0%, #151416 100%);
