@@ -1,7 +1,6 @@
 import { Link } from 'react-router-dom'
 import btn_home from '../assets/btn_home.svg'
 import '../styles/Header.scss'
-import '../styles/utils/properties.scss'
  
 function Header() {
     return (

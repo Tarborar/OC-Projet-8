@@ -1,0 +1,33 @@
+@import './utils/properties.scss';
+
+.about-bloc{
+    display: flex;
+    justify-content: center;
+    gap: 120px;
+
+    &__information{
+        display: flex;
+        max-width: 50%;
+        
+        flex-direction: column;
+        gap: 33px;
+
+        &--subtitle{
+            font-family: 'Montserrat';
+            font-size: 38px;
+        }
+
+        &--text{
+            font-family: 'Montserrat';
+            font-size: 21px;
+        }
+    }
+
+    &__image{
+        &--test{
+            width: 340px;
+            height: 530px;
+            background-color: white;
+        }
+    }
+}
