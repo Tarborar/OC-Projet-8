@@ -8,7 +8,7 @@ function Navigation() {
                 <div className='navigation-navbar__bloc--text noLinkDecoration'>A Propos</div>
             </Link>
             <Link to="/skills" className='navigation-navbar__bloc noLinkDecoration'>
-                <div className='navigation-navbar__bloc--text noLinkDecoration'>Compétence</div>
+                <div className='navigation-navbar__bloc--text noLinkDecoration'>Compétences</div>
             </Link>
             <Link to="/projects" className='navigation-navbar__bloc noLinkDecoration'>
                 <div className='navigation-navbar__bloc--text noLinkDecoration'>Projets</div>

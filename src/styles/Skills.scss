@@ -1,0 +1,16 @@
+@import './utils/properties.scss';
+
+.skills-bloc{
+    display: flex;
+    
+    &__information{
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    &__navigation{
+        display: flex;
+        flex-direction: column;
+    }
+}

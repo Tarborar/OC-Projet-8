@@ -3,24 +3,15 @@
 .about-bloc{
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 120px;
+    height: calc(100% - $marginSpace - $headerHeigth - $navigationHeight);
 
     &__information{
         display: flex;
-        max-width: 50%;
-        
         flex-direction: column;
+        max-width: 50%;
         gap: 33px;
-
-        &--subtitle{
-            font-family: 'Montserrat';
-            font-size: 38px;
-        }
-
-        &--text{
-            font-family: 'Montserrat';
-            font-size: 21px;
-        }
     }
 
     &__image{
