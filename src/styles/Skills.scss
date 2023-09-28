@@ -2,26 +2,53 @@
 
 .skills-bloc{
     display: flex;
-    justify-content: center;
-    gap: 120px;
+    margin-left: $leftMargin;
     
     &__information{
         display: none;
-        &--active{
-            display: flex;
-            flex-direction: column;
-            max-width: 60%;
-            gap: 33px;
-        }
+        flex-direction: column;
+        max-width: 60%;
+        gap: 33px;
+    }
+
+    &__line{
+        width: 1px;
+        height: 600px;
+        background-color: rgba(255, 255, 255, 0.1);
+        margin-left: 60px;
+        margin-right: 60px;
     }
 
     &__navigation{
         display: flex;
         flex-direction: column;
         gap: 33px;
-
-        &--active{
-            background-color: red;
+        width: 100%;
+        
+        &--btn{
+            display: flex;
+            align-items: center;
+            height: 112px;
+            padding-left: 50px;
         }
     }
+}
+
+.skill-active{
+    display: flex;
+}
+
+.skill-btn-active{
+    background: linear-gradient(
+        90deg, 
+        rgba(23, 22, 24, 0) 0%,  
+        rgba(50, 49, 51, 0.5) 12.32%,
+        rgba(74, 73, 74, 0.5) 26.25%, 
+        rgba(88, 88, 88, 0.5) 39.18%, 
+        rgba(93, 93, 93, 0.5) 50%, 
+        rgba(88, 88, 88, 0.5) 60.64%, 
+        rgba(72, 72, 73, 0.5) 73.95%, 
+        rgba(48, 47, 48, 0.5) 88.61%, 
+        rgba(23, 22, 24, 0) 100%
+    );
 }

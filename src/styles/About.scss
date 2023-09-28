@@ -2,10 +2,8 @@
 
 .about-bloc{
     display: flex;
-    justify-content: center;
-    // align-items: center;
+    margin-left: $leftMargin;
     gap: 120px;
-    // height: calc(100% - $marginSpace - $headerHeigth - $navigationHeight);
 
     &__information{
         display: flex;
