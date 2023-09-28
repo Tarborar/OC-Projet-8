@@ -1,0 +1,24 @@
+.card-content{
+    position: relative;
+    width: 381px;
+    height: 546px;
+    background-color: white;
+
+    &__information{
+        position: absolute;
+        bottom: 15px;
+        color: black;
+        width: 100%;
+
+        &--content{
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
+
+.card-content-line{
+    height: 1px;
+    width: 100%;
+    background-color: black;
+}
