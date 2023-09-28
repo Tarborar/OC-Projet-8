@@ -3,9 +3,9 @@
 .about-bloc{
     display: flex;
     justify-content: center;
-    align-items: center;
+    // align-items: center;
     gap: 120px;
-    height: calc(100% - $marginSpace - $headerHeigth - $navigationHeight);
+    // height: calc(100% - $marginSpace - $headerHeigth - $navigationHeight);
 
     &__information{
         display: flex;

@@ -2,15 +2,26 @@
 
 .skills-bloc{
     display: flex;
+    justify-content: center;
+    gap: 120px;
     
     &__information{
-        display: flex;
-        flex-direction: column;
-        gap: 30px;
+        display: none;
+        &--active{
+            display: flex;
+            flex-direction: column;
+            max-width: 60%;
+            gap: 33px;
+        }
     }
 
     &__navigation{
         display: flex;
         flex-direction: column;
+        gap: 33px;
+
+        &--active{
+            background-color: red;
+        }
     }
 }

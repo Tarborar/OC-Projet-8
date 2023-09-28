@@ -1,6 +1,9 @@
+@import './utils/properties.scss';
+
 .header-navbar{
     display: flex;
     justify-content: space-between;
+    margin-bottom: $marginSpace*2;
 
     &__btn-home{
         width: 33px;
