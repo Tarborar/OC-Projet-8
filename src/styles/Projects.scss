@@ -9,9 +9,8 @@
     display: flex;
     gap: 120px;
     margin-top: $marginSpace;
-    &__content{
-        display: flex;
-
+    &__web{
+        display: none;
         &--left-line{
             border: 1px solid rgba(255, 255, 255, 0.1);
             writing-mode: vertical-rl;
@@ -19,12 +18,10 @@
             font-size: 24px;
             padding: 25px;
         }
-
         &--main-line{
             border: 1px solid rgba(255, 255, 255, 0.1);
             padding: 33px;
         }
-
         &--right-line{
             border: 1px solid rgba(255, 255, 255, 0.1);
             writing-mode: vertical-rl;
@@ -32,4 +29,40 @@
             padding: 25px;
         }
     }
+    &__logo{
+        display: none;
+    }
+
+    &__navigation{
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+        position: fixed;
+        right: 100px;
+        &__btn{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 72px;
+            height: 72px;
+            border: 1px solid white;
+            transform: rotate(45deg);
+
+            &--text{
+                transform: rotate(-45deg);
+            }
+        }
+    }
+}
+
+.active{
+    background-color: red;
+}
+
+.active-logo{
+    display: flex;
+}
+
+.active-web{
+    display: flex;
 }
