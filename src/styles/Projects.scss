@@ -31,6 +31,29 @@
     }
     &__logo{
         display: none;
+        width: 100%;
+        
+
+        &__information{
+            display: flex;
+            flex-direction: column;
+            gap: 33px;
+            max-width: 415px;
+        }
+
+        &__logos{
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            width: 100%;
+            gap: 14px;
+
+            &--line{
+                width: 50%;
+                height: 1px;
+                background-color: rgba(255, 255, 255, 0.1);
+            }
+        }
     }
 
     &__navigation{
@@ -65,4 +88,16 @@
 
 .active-web{
     display: flex;
+}
+
+.test{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Crée 3 colonnes de largeur égale */
+    grid-gap: 15px;
+}
+
+.img-logo{
+    width: 250px;
+    height: 250px;
+    background-color: rgba(255, 255, 255, 0.05);
 }
