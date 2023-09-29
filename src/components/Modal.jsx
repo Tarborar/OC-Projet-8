@@ -2,7 +2,7 @@ import '../styles/Modal.scss'
 import Button from './Button';
 import close from '../assets/close.svg'
 
-function Modal({ isOpen, toggleModal }) {
+function Modal({ toggleModal }) {
     return (
         <div className='modal'>
             <div className='overlay' onClick={toggleModal}>

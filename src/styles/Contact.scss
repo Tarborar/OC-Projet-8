@@ -1,0 +1,35 @@
+@import './utils/properties.scss';
+
+.contact-bloc{
+    margin-left: $leftMargin;
+    display: flex;
+    gap: 120px;
+
+    &__information{
+        text-align: center;
+
+        &--info{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100%;
+            gap: 33px;
+        }
+    }
+
+    &__form{
+        display: flex;
+        flex-direction: column;
+        gap: 33px;
+        width: 621px;
+    }
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+}
+
+.textarea{
+    height: 140px;
+}
