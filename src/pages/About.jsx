@@ -9,7 +9,7 @@ function About(){
             <div className="about-bloc__information">
                 <h2 className='titleText'>Qui suis-je ?</h2>
                 <h3 className='subtitleText montserrat'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, placeat.</h3>
-                <Link to="/skills"><Button cta={'En savoir plus'}/></Link>
+                <Link to="/skills" className='button-link'><Button cta={'En savoir plus'}/></Link>
                 <p className='mediumText montserrat'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi amet libero, praesentium quidem, neque ullam earum laborum at qui itaque quas eum, aspernatur facere dolorum repellendus animi perspiciatis consequatur debitis.
                 Expedita, commodi? Perferendis nulla nam impedit? Corporis deserunt doloribus sequi, ut libero, beatae in, voluptas unde nesciunt maxime dolor!</p>
             </div>
