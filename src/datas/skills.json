@@ -1,51 +1,63 @@
 [
     {
-        "title": "Frontend",
+        "title": "FRONT-END",
         "technologies": [
             {
-                "name": "html",
+                "name": "HTML",
                 "logo": "img"
             },
             {
-                "name": "css",
+                "name": "CSS",
                 "logo": "img"
             },
             {
-                "name": "js",
+                "name": "SASS",
+                "logo": "img"
+            },
+            {
+                "name": "JS",
+                "logo": "img"
+            },
+            {
+                "name": "REACT",
                 "logo": "img"
             }
         ],
-        "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, placeat.",
-        "paragraph": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi amet libero, praesentium quidem, neque ullam earum laborum at qui itaque quas eum, aspernatur facere dolorum repellendus animi perspiciatis consequatur debitis. Expedita, commodi? Perferendis nulla nam impedit? Corporis deserunt doloribus sequi, ut libero, beatae in, voluptas unde nesciunt maxime dolor!"
+        "subtitle": "Création d'application web",
+        "paragraph": "Internet possède une dimensionnalité enlisée par une certaine abstraction créative que l'être humain enrichit en dépensant une valeur quantitative mais précieuse : le temps. Il se trouve que le développement web nous offre une forme de concrétisation immédiate, une récompense visuelle instantanée. C'est face à la page blanche qu'on envisage le plus beau des projets. Oser, imaginer et créer. Les idées fusent, ma motivation est stratosphérique et ma verbe peut-être un peu lunaire. Peut-être pourrions-nous échanger davantage pour réaliser ce projet ensemble ?"
     },
     {
-        "title": "Backend",
+        "title": "BACK-END",
         "technologies": [
             {
-                "name": "nodejs",
+                "name": "NODEJS",
                 "logo": "img"
             },
             {
-                "name": "express",
+                "name": "EXPRESS",
                 "logo": "img"
             }
         ],
-        "subtitle": "Lorem ipsum dolor sit amet.",
-        "paragraph": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi amet libero, praesentium quidem, neque ullam earum laborum at qui itaque quas eum, aspernatur facere dolorum repellendus animi perspiciatis consequatur debitis. Expedita, commodi? Perferendis nulla nam impedit? Corporis deserunt doloribus sequi, ut libero, beatae in, voluptas unde nesciunt maxime dolor!"
+        "subtitle": "Gestion de base de donnée",
+        "paragraph": "Dans mon projet backend, j'ai créé un système complet de gestion des données en utilisant Node.js, Express, et MongoDB. J'ai mis en place des routes CRUD (Create, Read, Update, Delete) pour permettre aux utilisateurs d'effectuer toutes les opérations essentielles sur les données de l'application de manière sécurisée. J'ai utilisé Express pour gérer ces routes et j'ai intégré une base de données MongoDB pour stocker et organiser les informations."
     },
     {
-        "title": "Graphiste",
+        "title": "INFOGRAPHIE",
         "technologies": [
             {
-                "name": "illustrator",
+                "name": "LOGO",
                 "logo": "img"
             },
             {
-                "name": "Logo",
+                "name": "MAQUETTAGE",
+                "logo": "img"
+            },
+            {
+                "name": "UI/UX",
                 "logo": "img"
             }
         ],
-        "subtitle": "Lorem ipsum dolor sit amet consectetur adipisicing.",
-        "paragraph": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi amet libero, praesentium quidem, neque ullam earum laborum at qui itaque quas eum, aspernatur facere dolorum repellendus animi perspiciatis consequatur debitis. Expedita, commodi? Perferendis nulla nam impedit? Corporis deserunt doloribus sequi, ut libero, beatae in, voluptas unde nesciunt maxime dolor!"
+        "subtitle": "Création de l'identité graphique",
+        "paragraph": "Ma passion pour l'infographie, le web design et la création de logos remonte à de nombreuses années, et c'est cette passion qui m'a poussé à me plonger profondément dans ces domaines créatifs. L'infographie est bien plus qu'une simple activité pour moi ; c'est une véritable source d'inspiration et d'expression artistique. L'une de mes plus grandes satisfactions réside dans la conception de logos. Créer l'identité visuelle d'une marque, lui donner vie à travers des formes, des couleurs et des typographies uniques est un défi que je relève avec enthousiasme. Chaque logo que je crée raconte une histoire, transmet des valeurs et communique l'essence même de la marque."
     }
 ]
