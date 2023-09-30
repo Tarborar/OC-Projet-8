@@ -10,7 +10,7 @@
 
 $backgroundColor: radial-gradient(circle farthest-side at 51.3% -27.69%, #313131 0%, #151416 100%);
 $marginSpace: 33px;
-$navigationHeight: 79px;
+$navigationHeight: 73px;
 $headerHeigth: 36px;
 $leftMargin: 152px;
 
@@ -30,6 +30,10 @@ h1, h2, h3, h4, p{
     margin: 0;
 }
 
+p{
+    opacity: 0.75;
+}
+
 .button-cta{
     background-color: white;
     border: none;
@@ -38,5 +42,30 @@ h1, h2, h3, h4, p{
     font-size: 21px;
     padding-left: 20px;
     padding-right: 20px;
+    width: 361px;
+}
+
+input[type="text"]{
+    border: none;
+    border-bottom: 1px solid white;
+    background: transparent;
+    outline: none;
+    color: white;
+}
+
+.input{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.textarea{
+    height: 140px;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    padding: 10px;
+    resize: none;
+    outline: none;
 }
 

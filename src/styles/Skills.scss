@@ -9,6 +9,27 @@
         flex-direction: column;
         max-width: 60%;
         gap: 33px;
+
+        &__ul{
+            display: flex;
+            gap: 100px;
+
+            &--li-design{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 72px;
+                height: 72px;
+                border: 1px solid rgba(255, 255, 255, 0.1);
+                transform: rotate(45deg);
+
+                &--text{
+                    transform: rotate(-45deg);
+                }
+            } 
+        }
+
+        
     }
 
     &__line{
@@ -39,16 +60,5 @@
 }
 
 .skill-btn-active{
-    background: linear-gradient(
-        90deg, 
-        rgba(23, 22, 24, 0) 0%,  
-        rgba(50, 49, 51, 0.5) 12.32%,
-        rgba(74, 73, 74, 0.5) 26.25%, 
-        rgba(88, 88, 88, 0.5) 39.18%, 
-        rgba(93, 93, 93, 0.5) 50%, 
-        rgba(88, 88, 88, 0.5) 60.64%, 
-        rgba(72, 72, 73, 0.5) 73.95%, 
-        rgba(48, 47, 48, 0.5) 88.61%, 
-        rgba(23, 22, 24, 0) 100%
-    );
+    background: linear-gradient(90deg, rgba(23, 22, 24, 0) 0%,  rgba(50, 49, 51, 0.5) 12.32%,rgba(74, 73, 74, 0.5) 26.25%, rgba(88, 88, 88, 0.5) 39.18%, rgba(93, 93, 93, 0.5) 50%, rgba(88, 88, 88, 0.5) 60.64%, rgba(72, 72, 73, 0.5) 73.95%, rgba(48, 47, 48, 0.5) 88.61%, rgba(23, 22, 24, 0) 100%);
 }

@@ -3,6 +3,7 @@ import Modal from '../components/Modal';
 
 import '../styles/Projects.scss'
 import Card from '../components/Card'
+import arrow from '../assets/arrow.svg'
 
 function Projects(){
     const [toggleState, setToggleState] = useState(1);
@@ -18,12 +19,16 @@ function Projects(){
 
     return(
         <div className='projects-page'>
-            <h2 className='titleText'>Projets</h2>
+            <h2 className='titleText'>PROJETS</h2>
             <div className='projects-bloc'>
-                <div className={toggleState === 1 ? 'projects-bloc__web active-web' : 'projects-bloc__web'} onClick={toggleModal}> 
-                    <div className='projects-bloc__web--left-line'>Projet 1</div>
-                    <div className='projects-bloc__web--main-line'><Card/></div> 
-                    <div className='projects-bloc__web--right-line'>Projet 1</div>
+                <div className={toggleState === 1 ? 'projects-bloc__web active-web' : 'projects-bloc__web'}> 
+                    <div className='projects-bloc__web__carousel-line'></div>
+                    <div className='projects-bloc__web__carousel'>
+                        <div className='projects-bloc__web--left-line'>Projet 1 <img src={arrow} alt="" className='projects-bloc__web--left-arrow'/></div>
+                        <div className='projects-bloc__web--main-line'><Card onClick={toggleModal}/></div> 
+                        <div className='projects-bloc__web--right-line'>Projet 1 <img src={arrow} alt="" className='projects-bloc__web--right-arrow'/></div>
+                    </div>
+                    <div className='projects-bloc__web__carousel-line'></div>
                 </div> 
                 <div className={toggleState === 2 ? 'projects-bloc__logo active-logo' : 'projects-bloc__logo'}>
                     <div className='projects-bloc__logo__information'>

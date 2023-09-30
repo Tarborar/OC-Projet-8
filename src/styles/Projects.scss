@@ -9,24 +9,53 @@
     display: flex;
     gap: 120px;
     margin-top: $marginSpace;
+
     &__web{
         display: none;
-        &--left-line{
-            border: 1px solid rgba(255, 255, 255, 0.1);
+        flex-direction: column;
+        align-items: center;
+
+        &__carousel-line{
+            width: 60vw;
+            height: 1px;
+            background : linear-gradient(90deg, rgba(23, 22, 24, 0) 0%, rgba(35, 34, 36, 0.04) 1.82%, rgba(56, 56, 57, 0.12) 6.05%, rgba(73, 73, 73, 0.22) 11.05%, rgba(84, 84, 85, 0.34) 17.23%, rgba(91, 91, 91, 0.52) 25.91%, rgba(93, 93, 93, 1) 50%, rgba(91, 91, 91, 0.52) 74.09%, rgba(84, 84, 85, 0.34) 82.77%, rgba(73, 73, 73, 0.22) 88.95%, rgba(56, 56, 57, 0.12) 93.95%, rgba(35, 34, 36, 0.04) 98.18%, rgba(23, 22, 24, 0) 100%);
+        }
+        
+        &__carousel{
+            display: flex;
+            position: relative;
+        }
+
+        &--left-line, &--right-line{
+            border-right: 1px solid rgba(255, 255, 255, 0.1);
+            border-left: 1px solid rgba(255, 255, 255, 0.1);
             writing-mode: vertical-rl;
-            transform: scale(-1);
             font-size: 24px;
             padding: 25px;
         }
+
+        &--left-arrow, &--right-arrow{
+            width: 118px;
+            height: 52px;
+            transform: rotate(-90deg);
+            position: absolute;
+            top: 45.7%;
+        }
+
+        &--left-arrow{
+            left: 20px;
+        }
+
+        &--right-arrow{
+            right: -57px;
+        }
+        
         &--main-line{
-            border: 1px solid rgba(255, 255, 255, 0.1);
             padding: 33px;
         }
-        &--right-line{
-            border: 1px solid rgba(255, 255, 255, 0.1);
-            writing-mode: vertical-rl;
-            font-size: 24px; 
-            padding: 25px;
+        
+        &--left-line{
+            transform: scale(-1);
         }
     }
     &__logo{

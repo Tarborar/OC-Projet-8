@@ -13,23 +13,23 @@
             flex-direction: column;
             justify-content: center;
             height: 100%;
-            gap: 33px;
+            gap: 60px;
+
+            &--spacing{
+                display: flex;
+                flex-direction: column;
+                gap: 15px;
+            }
         }
     }
 
     &__form{
         display: flex;
         flex-direction: column;
-        gap: 33px;
+        gap: 60px;
         width: 621px;
+        &--position-btn{
+            text-align: center;
+        }
     }
-}
-
-.input{
-    display: flex;
-    flex-direction: column;
-}
-
-.textarea{
-    height: 140px;
 }

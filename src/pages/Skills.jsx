@@ -16,9 +16,11 @@ function Skills() {
             {data.map((item, index) => (
                 <div key={index} className={toggleState === index ? 'skills-bloc__information skill-active' : 'skills-bloc__information'}>
                     <h2 className='titleText'>{item.title}</h2>
-                    <ul>
+                    <ul className='skills-bloc__information__ul'>
                         {item.technologies.map((tech, techIndex) => (
-                            <li key={techIndex}>{tech.name}</li>
+                            <li key={techIndex} className='skills-bloc__information__ul--li-design'>
+                                <div className='skills-bloc__information__ul--li-design--text'>{tech.name}</div>
+                            </li>
                         ))}
                     </ul>
                     <h3 className='subtitleText montserrat'>{item.subtitle}</h3>

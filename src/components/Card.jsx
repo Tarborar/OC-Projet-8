@@ -1,8 +1,8 @@
 import '../styles/Card.scss'
 
-function Card(){
+function Card({onClick}){ //doit passer l'argument onClick pour le transférer l'événement au component
     return(
-        <div className='card-bloc'>
+        <div className='card-bloc' onClick={onClick}>
             <div className='card-content'>
                 <div className='card-content__information'>
                     <div className='card-content-line'></div>
