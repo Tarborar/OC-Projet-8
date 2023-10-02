@@ -1,0 +1,28 @@
+@import './utils/properties.scss';
+
+.projects-bloc__navigation{
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+    position: fixed;
+    right: 100px;
+    &__btn{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 72px;
+        height: 72px;
+        border: 1px solid white;
+        transform: rotate(45deg);
+
+        &--text{
+            transform: rotate(-45deg);
+        }
+    }
+}
+
+.active{
+outline: 1px solid rgba(255, 255, 255, 0.1);
+outline-offset: 10px;
+box-shadow: 0 0 0 5px rgba(255, 255, 255, 1);
+}

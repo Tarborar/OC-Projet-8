@@ -4,7 +4,6 @@
     display: none;
     width: 90%;
     
-
     &__information{
         display: flex;
         flex-direction: column;
@@ -27,8 +26,8 @@
 
         &--grid{
             display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Crée 3 colonnes de largeur égale */
-    grid-gap: 15px;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 15px;
         }
     }
 }
