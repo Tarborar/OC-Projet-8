@@ -5,7 +5,6 @@ import '../styles/Projects.scss'
 import Logo from './Logo';
 import Web from './Web';
 
-import Modal from '../components/Modal';
 import Transition from '../components/Transition';
 
 function Projects(){
@@ -28,11 +27,7 @@ function Projects(){
                 <Logo toggleState={toggleState} />
                 <Transition toggleState={toggleState} toggleTab={toggleTab}/>
             </div>
-            {modal && (
-                <Modal toggleModal={toggleModal} />
-            )}
         </div>
-        
     );
 }
 

@@ -2,7 +2,7 @@ import '../styles/Modal.scss'
 import Button from './Button';
 import close from '../assets/close.svg'
 
-function Modal({ toggleModal }) {
+function Modal({ toggleModal, currentData }) {
     return (
         <div className='modal'>
             <div className='overlay' onClick={toggleModal}>
@@ -11,17 +11,17 @@ function Modal({ toggleModal }) {
                         <img className='modal-content__image--close' src={close} alt="" onClick={toggleModal}/>
                     </div>
                     <div className='modal-content__information'>
-                        <h3 className='modal-content__information__title'>Projet 1</h3>
+                        <h3 className='modal-content__information__title'>{currentData.title}</h3>
                         <div>
-                            <div className='smallText modal-content__information--date'>23.03.2023</div>
+                            <div className='smallText modal-content__information--date'>{currentData.date}</div>
                             <div className='modal-content__information__line'></div>
                         </div>
                         
-                        <div className='subtitleText montserrat'>Lorem ipsum feizjfz feifiefze</div>    
+                        <div className='subtitleText montserrat'>{currentData.subtitle}</div>    
                         <Button cta={"Découvrir"}></Button>
                         <div>
-                            <h4 className='smallText modal-content__information--small-subtitle'>Projet 1</h4>
-                            <p className='smallText montserrat'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora dolores, autem id culpa consequuntur illo, vel excepturi delectus aut magnam porro illum harum maxime mollitia, vitae quae perspiciatis voluptas obcaecati?</p>
+                            <h4 className='smallText modal-content__information--small-subtitle'>{currentData.paragraphName}</h4>
+                            <p className='smallText montserrat'>{currentData.paragraph}</p>
                         </div>
                         
                     </div>
