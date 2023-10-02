@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Modal from '../components/Modal';
+import Logo from './Logo';
 
 import '../styles/Projects.scss'
 import Card from '../components/Card'
@@ -30,32 +31,7 @@ function Projects(){
                     </div>
                     <div className='projects-bloc__web__carousel-line'></div>
                 </div> 
-                <div className={toggleState === 2 ? 'projects-bloc__logo active-logo' : 'projects-bloc__logo'}>
-                    <div className='projects-bloc__logo__information'>
-                        <h3 className='subtitleText'>PROJET 1</h3>
-                        <button className='button-cta'>DÉCOUVRIR</button>
-                        <div>
-                           <h4 className='mediumText'>PROJET 1</h4>
-                            <p className='smallText montserrat'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam quod sequi fugit amet? Ea vitae, architecto ad aliquam et dolorem.</p> 
-                        </div>
-                        <div>
-                           <h4 className='mediumText'>PROJET 1</h4>
-                            <p className='smallText montserrat'>zfzeifzefzefzefuhzef</p> 
-                        </div>
-                    </div>
-                    <div className='projects-bloc__logo__logos'>
-                        <h3 className='smallText'>Logo</h3>
-                        <div className='projects-bloc__logo__logos--line'></div>
-                        <div className='test'>
-                            <div className='img-logo'></div>
-                            <div className='img-logo'></div>
-                            <div className='img-logo'></div>
-                            <div className='img-logo'></div>
-                            <div className='img-logo'></div>
-                            <div className='img-logo'></div>
-                        </div>
-                    </div>
-                </div>
+                <Logo toggleState={toggleState} />
                 <div className='projects-bloc__navigation'>
                     <div className={toggleState === 1 ? 'projects-bloc__navigation__btn active' : 'projects-bloc__navigation__btn'} onClick={() => toggleTab(1)}><div className='smallText projects-bloc__navigation__btn--text'>WEB</div></div>
                     <div className={toggleState === 2 ? 'projects-bloc__navigation__btn active' : 'projects-bloc__navigation__btn'} onClick={() => toggleTab(2)}><div className='smallText projects-bloc__navigation__btn--text'>LOGO</div></div>

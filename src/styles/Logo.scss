@@ -1,0 +1,43 @@
+@import './utils/properties.scss';
+
+.projects-bloc__logo{
+    display: none;
+    width: 90%;
+    
+
+    &__information{
+        display: flex;
+        flex-direction: column;
+        gap: 33px;
+        max-width: 415px;
+    }
+
+    &__logos{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+        gap: 14px;
+
+        &--line{
+            width: 50%;
+            height: 1px;
+            background : linear-gradient(90deg, rgba(23, 22, 24, 0) 0%, rgba(35, 34, 36, 0.04) 1.82%, rgba(56, 56, 57, 0.12) 6.05%, rgba(73, 73, 73, 0.22) 11.05%, rgba(84, 84, 85, 0.34) 17.23%, rgba(91, 91, 91, 0.52) 25.91%, rgba(93, 93, 93, 1) 50%, rgba(91, 91, 91, 0.52) 74.09%, rgba(84, 84, 85, 0.34) 82.77%, rgba(73, 73, 73, 0.22) 88.95%, rgba(56, 56, 57, 0.12) 93.95%, rgba(35, 34, 36, 0.04) 98.18%, rgba(23, 22, 24, 0) 100%);
+        }
+
+        &--grid{
+            display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Crée 3 colonnes de largeur égale */
+    grid-gap: 15px;
+        }
+    }
+}
+
+.active-logo{
+    display: flex;
+}
+
+.img-logo{
+    width: 250px;
+    height: 250px;
+}
