@@ -7,7 +7,7 @@ function Modal({ toggleModal, currentData }) {
         <div className='modal'>
             <div className='overlay' onClick={toggleModal}>
                 <div className="modal-content" onClick={(e) => e.stopPropagation()}>
-                    <div className='modal-content__image'>
+                    <div className={`modal-content__image ${currentData.website}`}>
                         <img className='modal-content__image--close' src={close} alt="" onClick={toggleModal}/>
                     </div>
                     <div className='modal-content__information'>
@@ -23,7 +23,6 @@ function Modal({ toggleModal, currentData }) {
                             <h4 className='smallText modal-content__information--small-subtitle'>{currentData.paragraphName}</h4>
                             <p className='smallText montserrat'>{currentData.paragraph}</p>
                         </div>
-                        
                     </div>
                     
                 </div>

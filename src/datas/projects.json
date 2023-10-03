@@ -1,24 +1,26 @@
 [
     {
         "title": "Booki",
-        "leftBloc": "Projet 1",
-        "rigthBloc": "Projet 1",
+        "leftBloc": "BOOKI",
+        "rigthBloc": "PROJET 1",
         "year": "2023",
         "date": "23.03.2023",
         "number": "N1",
-        "background": "img",
+        "background": "vitrine-booki",
+        "website": "website-booki",
         "subtitle": "Lorem ipsum feizjfz feifiefze",
         "paragraphName": "Projet 1",
         "paragraph": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora dolores, autem id culpa consequuntur illo, vel excepturi delectus aut magnam porro illum harum maxime mollitia, vitae quae perspiciatis voluptas obcaecati?"
     },
     {
         "title": "Kasa",
-        "leftBloc": "Projet 2",
-        "rigthBloc": "Projet 2",
+        "leftBloc": "KASA",
+        "rigthBloc": "PROJET 2",
         "year": "2022",
         "date": "01.01.2022",
         "number": "N2",
-        "background": "img",
+        "background": "vitrine-kasa",
+        "website": "website-kasa",
         "subtitle": "Lorem ipsum",
         "paragraphName": "Projet 2",
         "paragraph": "Lorem, consequuntur illo, vitae quae perspiciatis voluptas obcaecati? vitae quae perspiciatis voluptas obcaecati"

@@ -12,7 +12,9 @@
 
     &__image{
         flex: 1;
-        background-color: white;
+        // background-color: white;
+        background-size: cover;
+        background-position: center;
 
         &--close{
             width: 28px;

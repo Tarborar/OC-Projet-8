@@ -28,7 +28,7 @@ function Web({toggleState}){
     }
 
     return(
-        <div className={toggleState === 1 ? 'projects-bloc__web active-web' : 'projects-bloc__web'}>
+      <div className={toggleState === 1 ? 'projects-bloc__web active-web' : 'projects-bloc__web'}>
         <div className='projects-bloc__web__carousel-line'></div>
         <div className='projects-bloc__web__carousel'>
           <div className='projects-bloc__web--left-line' onClick={prevCard}>
