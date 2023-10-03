@@ -4,7 +4,11 @@
     position: relative;
     width: 381px;
     height: 546px;
-    background-color: white;
+    transition: opacity 0.05s ease;
+    &:hover{
+        opacity: 0.8;
+        cursor: pointer;
+    }
 
     &__information{
         position: absolute;

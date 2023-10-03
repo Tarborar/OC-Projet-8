@@ -15,7 +15,7 @@ function About(){
                 Je me suis d'abord intéressé à la conception de logos puis j'ai commencé à approfondir mes connaissances en autodidacte pour devenir développeur front-end.
                 <br /><br />C’est alors que je me suis inscrit à la formation d’Openclassrooms pour pousser mon niveau au plus haut et ainsi obtenir la liberté de création que j'ai aujoud'hui.</p>
             </div>
-            <div className='about-bloc__image'><div className='about-bloc__image--test'></div></div>
+            <div className='about-bloc__image'><div className='about-bloc__image--void'></div></div>
         </div>
     );
 }

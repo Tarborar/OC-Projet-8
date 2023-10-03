@@ -21,6 +21,10 @@
         bottom: $navigationHeight + $marginSpace;
         left: 50%; 
         transform: translateX(-50%);
+        transition: 0.2s ease;
+        &:hover{
+            width: 117px;
+        }
     }
 }
 

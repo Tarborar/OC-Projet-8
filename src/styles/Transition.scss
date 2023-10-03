@@ -5,15 +5,20 @@
     flex-direction: column;
     gap: 90px;
     position: fixed;
-    right: 100px;
+    right: 50px;
     &__btn{
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 72px;
-        height: 72px;
+        width: 3.75vw;
+        height: 3.75vw;
         border: 1px solid white;
         transform: rotate(45deg);
+        transition: 0.115s ease;
+        &:hover{
+            box-shadow: 0 0 0 5px rgba(255, 255, 255, 1);
+            cursor: pointer;
+        }
 
         &--text{
             transform: rotate(-45deg);
@@ -23,6 +28,6 @@
 
 .active{
 outline: 1px solid rgba(255, 255, 255, 0.1);
-outline-offset: 10px;
+outline-offset: 15px;
 box-shadow: 0 0 0 5px rgba(255, 255, 255, 1);
 }

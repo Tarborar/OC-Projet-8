@@ -8,12 +8,12 @@ function Contact(){
                 <h2 className="titleText">CONTACT</h2>
                 <div className='contact-bloc__information--info'>
                     <div className='contact-bloc__information--info--spacing'>
-                        <div className='mediumText'>Email</div>
-                        <p className='mediumText montserrat'>mail@email.com</p>
+                        <div className=''>Email</div>
+                        <p className=' montserrat'>mail@email.com</p>
                     </div>
                     <div className='contact-bloc__information--info--spacing'>
-                        <div className='mediumText'>TELEPHONE</div>
-                        <p className='mediumText montserrat'>01 01 01 01 01</p>
+                        <div className=''>TELEPHONE</div>
+                        <p className=' montserrat'>01 01 01 01 01</p>
                     </div>
                 </div>
             </div>

@@ -8,5 +8,13 @@
     &__btn-home{
         width: 33px;
         height: 33px;
+        transition: transform 0.2s ease;
+        &:hover{
+            transform: scale(1.15);
+        }
+    }
+
+    &__text{
+        font-size: 21px;
     }
 }

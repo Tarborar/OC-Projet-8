@@ -32,7 +32,7 @@ function Skills() {
             <div className='skills-bloc__line'></div>
             <nav className='skills-bloc__navigation'>
                 {data.map((item, index) => (
-                    <div key={index} className={toggleState === index ? 'mediumText skills-bloc__navigation--btn skill-btn-active' : 'mediumText skills-bloc__navigation--btn'} onClick={() => toggleTab(index)}>
+                    <div key={index} className={toggleState === index ? 'skills-bloc__navigation--btn skill-btn-active' : 'skills-bloc__navigation--btn'} onClick={() => toggleTab(index)}>
                         {item.title}
                     </div>
                 ))}
