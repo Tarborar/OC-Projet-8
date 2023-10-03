@@ -4,11 +4,31 @@
     display: flex;
     margin-left: $leftMargin;
 
+    @media (max-height: 910px){
+        overflow-y: scroll;
+        overflow-x: hidden;
+        max-height: 70%;
+    }
+
+    @media (max-width: 1024px){
+        margin-left: 0;
+        flex-direction: row-reverse;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        max-height: 70%;
+    }
+
     &__information{
         display: none;
         flex-direction: column;
         max-width: 60%;
         gap: 33px;
+
+        &--title{
+            @media (max-width: 1024px){
+                display: none;
+            }
+        }
 
         &__ul{
             display: flex;
@@ -24,6 +44,11 @@
                 border: 1px solid rgba(255, 255, 255, 0.1);
                 transform: rotate(45deg);
 
+                @media (max-width: 1024px){
+                    width: 32px;
+                    height: 32px;
+                }
+
                 &--text{
                     transform: rotate(-45deg);
                 }
@@ -37,6 +62,10 @@
         background-color: rgba(255, 255, 255, 0.1);
         margin-left: 60px;
         margin-right: 60px;
+
+        @media (max-width: 1024px){
+            display: none;
+        }
     }
 
     &__navigation{
@@ -54,6 +83,10 @@
             &:hover{
                 background: linear-gradient(90deg, rgba(23, 22, 24, 0) 0%,  rgba(50, 49, 51, 0.5) 12.32%,rgba(74, 73, 74, 0.5) 26.25%, rgba(88, 88, 88, 0.5) 39.18%, rgba(93, 93, 93, 0.5) 50%, rgba(88, 88, 88, 0.5) 60.64%, rgba(72, 72, 73, 0.5) 73.95%, rgba(48, 47, 48, 0.5) 88.61%, rgba(23, 22, 24, 0) 100%);
                 cursor: pointer;
+            }
+            @media (max-width: 1024px){
+                font-size: 12px;
+                height: 66px;
             }
         }
     }

@@ -21,7 +21,7 @@ function Projects(){
 
     return(
         <div className='projects-page'>
-            <h2 className='titleText'>PROJETS</h2>
+            <h2 className='titleText projects-page__title'>PROJETS</h2>
             <div className='projects-bloc'>
                 <Web toggleState={toggleState} toggleModal={toggleModal}/>
                 <Logo toggleState={toggleState} />

@@ -6,6 +6,10 @@
     gap: 90px;
     position: fixed;
     right: 50px;
+    @media (max-width: 1024px){
+        display: none;
+    }
+
     &__btn{
         display: flex;
         justify-content: center;

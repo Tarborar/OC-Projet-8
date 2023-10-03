@@ -12,9 +12,12 @@
 
     &__image{
         flex: 1;
-        // background-color: white;
         background-size: cover;
         background-position: center;
+
+        @media (max-width: 1024px){
+            display: none;
+        }
 
         &--close{
             width: 28px;

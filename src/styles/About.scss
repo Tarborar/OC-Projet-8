@@ -5,11 +5,19 @@
     margin-left: $leftMargin;
     gap: 120px;
 
+    @media (max-width: 1024px){
+        margin-left: 0;
+    }
+
     &__information{
         display: flex;
         flex-direction: column;
         max-width: 50%;
         gap: 33px;
+
+        @media (max-width: 1024px){
+            max-width: 100%;
+        }
     }
 
     &__image{
@@ -17,6 +25,10 @@
             width: 17.7vw;
             height: 49vh;
             background-color: white;
+        }
+
+        @media (max-width: 1024px){
+            display: none;
         }
     }
 }

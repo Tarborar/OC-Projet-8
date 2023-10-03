@@ -19,9 +19,27 @@ $leftMargin: 152px;
     color: white;
 }
 
-.titleText{font-size: 3.9vw; line-height: 1;}
-.subtitleText{font-size: 2vw;}
-.mediumText{font-size: 1vw;}
+.titleText{
+    font-size: 3.9vw; 
+    line-height: 1;
+    @media (max-width: 1024px){
+        font-size: 18px;
+    }
+}
+.subtitleText{
+    font-size: 2vw;
+
+    @media (max-width: 1024px){
+        font-size: 14px;
+    }
+}
+.mediumText{
+    font-size: 1vw;
+
+    @media (max-width: 1024px){
+        font-size: 12px;
+    }
+}
 .smallText{font-size: 14px;}
 .montserrat{font-family: 'Montserrat';}
 
@@ -51,6 +69,11 @@ p{
         color: white;
         cursor: pointer;
     }
+
+    @media (max-width: 1024px){
+        font-size: 14px;
+        width: 100%;
+    }
 }
 
 input[type="text"]{
@@ -75,6 +98,10 @@ input[type="text"]{
     padding: 10px;
     resize: none;
     outline: none;
+
+    @media (max-width: 1024px){
+        height: 75px;
+    }
 }
 
 .vitrine-booki{

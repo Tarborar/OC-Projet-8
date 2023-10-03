@@ -3,10 +3,24 @@
 .projects-page{
     margin-left: $leftMargin;
     margin-top: -$marginSpace;
+
+    @media (max-width: 1024px){
+        margin-left: 0;
+    }
+
+    @media (max-height: 910px){
+        .projects-page__title{
+            display: none;
+        }
+    }
 }
 
 .projects-bloc{
     display: flex;
     gap: 120px;
     margin-top: $marginSpace;
+
+    @media (max-width: 1024px){
+        justify-content: center;
+    }
 }

@@ -5,8 +5,21 @@
     display: flex;
     gap: 120px;
 
+    @media (max-width: 1024px){
+        margin-left: 0;
+        flex-direction: column;
+        align-items: center;
+        gap: 60px;   
+    }
+
     &__information{
         text-align: center;
+
+        &--title{
+            @media (max-width: 1024px){
+                display: none;
+            }
+        }
 
         &--info{
             display: flex;
@@ -15,6 +28,11 @@
             height: 100%;
             gap: 60px;
             font-size: 21px;
+
+            @media (max-width: 1024px){
+                height: 70vh; 
+                align-items: center;
+            }
 
             &--spacing{
                 display: flex;
@@ -29,6 +47,11 @@
         flex-direction: column;
         gap: 60px;
         width: 621px;
+
+        @media (max-width: 1024px){
+            display: none;
+        }
+
         &--position-btn{
             text-align: center;
         }

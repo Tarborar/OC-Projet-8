@@ -5,15 +5,15 @@ function Contact(){
     return(
         <div className='contact-bloc'>
             <div className='contact-bloc__information'>
-                <h2 className="titleText">CONTACT</h2>
+                <h2 className="titleText contact-bloc__information--title">CONTACT</h2>
                 <div className='contact-bloc__information--info'>
                     <div className='contact-bloc__information--info--spacing'>
-                        <div className=''>Email</div>
-                        <p className=' montserrat'>mail@email.com</p>
+                        <div>Email</div>
+                        <p className='montserrat'>mail@email.com</p>
                     </div>
                     <div className='contact-bloc__information--info--spacing'>
-                        <div className=''>TELEPHONE</div>
-                        <p className=' montserrat'>01 01 01 01 01</p>
+                        <div>TELEPHONE</div>
+                        <p className='montserrat'>01 01 01 01 01</p>
                     </div>
                 </div>
             </div>

@@ -5,6 +5,10 @@
     justify-content: space-between;
     margin-bottom: $marginSpace*2;
 
+    @media (max-width: 1024px){
+        align-items: center;
+    }
+
     &__btn-home{
         width: 33px;
         height: 33px;
@@ -16,5 +20,9 @@
 
     &__text{
         font-size: 21px;
+
+        @media (max-width: 1024px){
+            font-size: 12px;
+        }
     }
 }
