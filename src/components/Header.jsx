@@ -38,7 +38,7 @@ function Header() {
             <Link to="/contact" className='header-navbar__text noLinkDecoration'>Me contacter</Link>
 
             {isSideMenuOpen && (
-                <Menu/>
+                <Menu toggleSideMenu={toggleSideMenu}/>
             )}
         </nav>
     )

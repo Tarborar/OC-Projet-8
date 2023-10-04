@@ -7,6 +7,9 @@
 
     @media (max-width: 1024px){
         margin-left: 0;
+        height: 75vh;
+        overflow-y: scroll;
+        overflow-x: hidden;
     }
 
     &__information{

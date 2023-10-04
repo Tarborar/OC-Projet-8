@@ -3,6 +3,12 @@
 .projects-bloc__logo{
     display: none;
     width: 90%;
+
+    @media (max-width: 1024px){
+        height: 75vh;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
     
     &__information{
         display: flex;

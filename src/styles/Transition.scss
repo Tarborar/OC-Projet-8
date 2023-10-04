@@ -6,8 +6,10 @@
     gap: 90px;
     position: fixed;
     right: 50px;
+
     @media (max-width: 1024px){
-        display: none;
+       bottom: 33px;
+       flex-direction: row;
     }
 
     &__btn{
@@ -22,6 +24,10 @@
         &:hover{
             box-shadow: 0 0 0 5px rgba(255, 255, 255, 1);
             cursor: pointer;
+
+            @media (max-width: 1024px){
+                box-shadow: 0 0 0 5px rgba(255, 255, 255, 0);
+            }
         }
 
         &--text{
@@ -34,4 +40,7 @@
 outline: 1px solid rgba(255, 255, 255, 0.1);
 outline-offset: 15px;
 box-shadow: 0 0 0 5px rgba(255, 255, 255, 1);
+@media (max-width: 1024px){
+    box-shadow: 0 0 0 5px rgba(255, 255, 255, 0);
+}
 }
