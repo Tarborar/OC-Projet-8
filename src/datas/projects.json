@@ -4,25 +4,27 @@
         "leftBloc": "BOOKI",
         "rigthBloc": "BOOKI",
         "year": "2023",
-        "date": "23.03.2023",
+        "date": "01.03.2023",
         "number": "N1",
         "background": "vitrine-booki",
         "website": "website-booki",
-        "subtitle": "Lorem ipsum feizjfz feifiefze",
-        "paragraphName": "Projet 1",
-        "paragraph": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora dolores, autem id culpa consequuntur illo, vel excepturi delectus aut magnam porro illum harum maxime mollitia, vitae quae perspiciatis voluptas obcaecati?"
+        "subtitle": "Agence de voyage",
+        "paragraphName": "MISSION",
+        "paragraph": "Intégration de maquette en html et css pour un site Internet qui permet aux usagers de trouver des hébergements et des activités dans la ville de leur choix.",
+        "lien" : "https://github.com/Tarborar/OC-Projet-2"
     },
     {
         "title": "Kasa",
         "leftBloc": "KASA",
         "rigthBloc": "KASA",
         "year": "2022",
-        "date": "01.01.2022",
+        "date": "30.08.2023",
         "number": "N2",
         "background": "vitrine-kasa",
         "website": "website-kasa",
-        "subtitle": "Lorem ipsum",
-        "paragraphName": "Projet 2",
-        "paragraph": "Lorem, consequuntur illo, vitae quae perspiciatis voluptas obcaecati? vitae quae perspiciatis voluptas obcaecati"
+        "subtitle": "Location immobilière",
+        "paragraphName": "MISSION",
+        "paragraph": "Intégration de maquette en React JS pour une application web de location immobilière.",
+        "lien": "https://github.com/Tarborar/OC-Projet-6"
     }
 ]

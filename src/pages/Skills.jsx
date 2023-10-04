@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { Link } from 'react-router-dom'
 import data from '../datas/skills.json';
 
 import '../styles/Skills.scss';
@@ -25,7 +26,7 @@ function Skills() {
                     </ul>
                     <h3 className='subtitleText montserrat'>{item.subtitle}</h3>
                     <p className='middleText montserrat'>{item.paragraph}</p>
-                    <Button cta={'Projets'} />
+                    <Link to="/projects"><Button cta={'PROJETS'} /></Link>
                 </div>
             ))}
             

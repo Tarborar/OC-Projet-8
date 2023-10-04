@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 import '../styles/Modal.scss'
 import Button from './Button';
 import close from '../assets/close.svg'
@@ -18,7 +20,7 @@ function Modal({ toggleModal, currentData }) {
                         </div>
                         
                         <div className='subtitleText montserrat'>{currentData.subtitle}</div>    
-                        <Button cta={"Découvrir"}></Button>
+                        <Link to={currentData.lien}><Button cta={"CODE"}></Button></Link>
                         <div>
                             <h4 className='smallText modal-content__information--small-subtitle'>{currentData.paragraphName}</h4>
                             <p className='smallText montserrat'>{currentData.paragraph}</p>

@@ -1,0 +1,28 @@
+@import './utils/properties.scss';
+
+.menu-bloc{
+    background-color: #151416;
+    position: fixed;
+    left: 0;
+    top: 0px;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-size: 14px;
+    width: 50vw;
+    z-index: 2;
+    box-shadow: rgba(0, 0, 0, 1) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    &__btn{
+        padding-left: 33px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        height: 10vh;
+        background-color: rgba(255, 255, 255, 0.05);
+    }
+}
+
+.first-btn{
+    margin-top: 100px;
+}
